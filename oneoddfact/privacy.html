@@ -6,11 +6,11 @@
 <h2>YouTube API Services</h2>
 <p>The tool uses YouTube API Services. By using it, you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 <h2>What data the tool accesses</h2>
-<p>The tool asks for one Google permission: <strong>upload videos to YouTube</strong> (<code>youtube.upload</code>). It does not read your videos, comments, subscribers, analytics, contacts or any other account data.</p>
+<p>The tool asks for one Google permission, <code>youtube.force-ssl</code>, which Google describes as "See, edit, and permanently delete your YouTube videos, ratings, comments and captions". The tool uses it only to <strong>upload videos</strong>, <strong>set custom thumbnails</strong> and <strong>edit the title, description, tags and privacy setting</strong> of the channel owner's own videos. To edit a video it first reads that video's current details. It never deletes videos, and it does not read or change ratings, comments, captions, subscribers, analytics, contacts or any other account data.</p>
 <h2>What data the tool stores</h2>
 <p>Only the OAuth access and refresh tokens Google returns after sign-in. They are stored in a local file on the owner's computer, readable only by the owner's user account. No data is stored on any server.</p>
 <h2>How the data is used</h2>
-<p>The tokens are used only to authorise video uploads to the @OneOddFact channel. The tool sends video files and their titles, descriptions, tags and privacy settings to the YouTube Data API, and nothing else, to nowhere else.</p>
+<p>The tokens are used only to authorise uploads, thumbnail changes and edits on the @OneOddFact channel. The tool sends video files, thumbnail images and their titles, descriptions, tags and privacy settings to the YouTube Data API, and nothing else, to nowhere else.</p>
 <h2>Sharing</h2>
 <p>No data is shared with, sold to, or disclosed to any third party. There is no analytics, tracking or advertising.</p>
 <h2>Retention and deletion</h2>
